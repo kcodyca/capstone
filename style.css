@@ -1,0 +1,28 @@
+* {
+  margin: 0; /* These first three properties are a CSS reset, to override the default styles in the browser */
+  padding: 0;
+  box-sizing: border-box;/* Makes it so that the width of this element includes the padding and borders */
+    font-family: 'Source Sans Pro', sans-serif;
+  /*border: solid 1px red;*/ /* Using this can help you to more easily troubleshoot formatting issues. Make active when working, and comment out/delete when done */
+}
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+  background-color: #008080; /* teal */
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 25px;
+}
+img {width: 300px;}
+.sidebar {
+  float: right;
+  padding-right: 45px;
+  padding-left: 10px;
+  margin: 25
+}
+.bio {
+    padding: 5px;
+    padding-right: 30px;
+}
